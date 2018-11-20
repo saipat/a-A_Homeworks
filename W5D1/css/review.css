@@ -1,0 +1,114 @@
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+  background: #ccc;
+}
+
+.header {
+  background-color: Red;
+  color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.header a {
+  display: block;
+  padding: 5px;
+}
+
+.header-nav {
+  width: 900px;
+  background-color: green;
+  margin: 0 auto;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+.header-logo {
+  float: left;
+  border-right: 1px solid #eee;
+  font-weight:  700;
+}
+
+.header-logo:hover {
+  background: black;
+}
+
+.header-list {
+  float :right;
+}
+
+.header-list > li {
+  float: left;
+    border-left: 1px solid #eee;
+}
+
+.header-list > li:hover {
+  background: black;
+}
+.content {
+  margin: 0 auto;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  width: 900px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.content-sidebar {
+  float: left;
+  width: 200px;
+  padding: 20px;
+}
+
+.content-main {
+  width: 620px;
+  float: left;
+  padding: 20px;
+}
+
+
+.content h1 {
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 14px;
+}
+.footer {
+  width: 900px;
+  margin: 0 auto 50px auto;
+  background: #fff;
+  color: #aaa;
+  font-size: 14px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer-copy {
+  padding: 20px;
+    float: left
+}
+
+.footer-links {
+  padding: 20px;
+  float: right
+}
+
+.footer-links > li {
+  float: left;
+  padding-left: 20px;
+}
+
+.footer a {
+  padding: 5px;
+  display: block
+}
+
+.footer a:hover {
+  background: gray;
+}

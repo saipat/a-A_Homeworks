@@ -1,0 +1,33 @@
+.footer {
+  width: 660px;
+  background:  white;
+  color: #aaa;
+  margin: 0 auto 50px auto;
+  font-size: 14px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer-copy {
+  padding: 20px;
+    float: left
+}
+
+.footer-links {
+  padding: 20px;
+  float: right
+}
+
+.footer-links > li {
+  float: left
+}
+
+.footer a {
+  padding: 5px;
+  display: block
+}
+
+.footer a:hover {
+  background: gray;
+}

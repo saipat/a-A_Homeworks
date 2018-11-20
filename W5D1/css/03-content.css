@@ -1,0 +1,30 @@
+.content {
+  margin: 0 auto;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  width: 900px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.content-sidebar {
+  width: 240px;
+  float: left;
+  padding: 10px;
+}
+
+.content-main {
+  width: 660px;
+  float: left;
+  padding: 5px;
+}
+
+.content h1 {
+  margin-bottom: 5px;
+}
+
+.content p {
+  font-size: 14px;
+}
