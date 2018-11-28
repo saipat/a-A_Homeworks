@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(){
     roundedRect(ctx, 135, 119, 25, 49, 10);
 
     ctx.beginPath();
-    ctx.arc(37, 37, 13, Math.PI / 7, -Math.PI / 7, false);
+    ctx.arc(35, 35, 12, Math.PI/7, -Math.PI / 7, false);
     ctx.lineTo(31, 37);
     ctx.fill();
 
