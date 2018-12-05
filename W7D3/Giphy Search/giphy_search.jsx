@@ -6,5 +6,6 @@ import {fetchSearchGiphys} from './util/api_util';
 
 document.addEventListener('DOMContentLoaded', () => {
     // debugger
-    // window.fetchSearchGiphys = fetchSearchGiphys;
+    window.fetchSearchGiphys = fetchSearchGiphys;
+    
 });
